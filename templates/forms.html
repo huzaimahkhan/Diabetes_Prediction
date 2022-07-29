@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <form method="POST" action="/predict">
+
+            <label>No. of times pregnant---------</label><input type="number" name="preg" placeholder="(0-17)" required="required"/>
+            <br>
+            <br>
+            <label>Plasma glucose concentration--</label><input type="number" name="plas" placeholder="(0-199)" required="required"/>
+            <br>
+            <br>
+            <label>Diastolic blood pressure-----</label><input type="number" name="press" placeholder="(0-122)" required="required" ">
+            <br>
+            <br>
+            <label>Tricep Skinfold thickness----</label><input type="number" name="skin" placeholder="(0-992)" required="required"/>
+            <br>
+            <br>
+            <label>H Serum insulin--------------</label><input type="number" name="test" placeholder="(0-846)" required="required"/>
+            <br>
+            <br>
+            <label>BMI--------------------------</label><input type="number" name="mass" placeholder="(0-67.1)" step="0.01" required="required"/>
+            <br>
+            <br>
+            <label>Pedigree function------------</label><input type="number" name="pedi" placeholder="(0.078 - 2.42)" step="0.01" required="required"/>
+            <br>
+            <br>
+            <label>Age--------------------------</label><input type="number" name="age" placeholder="(21-81)" required="required"/>
+            <br>
+            <br>
+
+            <button>Submit</button>
+        </form>
+<!
+# preg: Number of times pregnant Integer 0–17
+
+# plas: Plasma glucose concentration in a 2 h oral glucose tolerance testReal 0–199
+
+# press: Diastolic blood pressure Real 0–122
+
+# skin: Triceps skin fold thickness Real 0–992
+
+# test: h serum insulin Real 0–846
+
+# mass: Body mass index Real 0–67.1
+
+# pedi: Diabetes pedigree function Real 0.078–2.42
+
+# age: Age Integer 21–81
+>
+
+    </body> 
+</html>
